@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@drawable/note_background">
+
+    <TextView
+        android:id="@+id/note_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="ID: 1" />
+
+    <TextView
+        android:id="@+id/note_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date: 2024-12-05" />
+
+    <TextView
+        android:id="@+id/note_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is a sample note."
+        android:paddingTop="4dp" />
+</LinearLayout>
